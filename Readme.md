@@ -8,8 +8,11 @@ This project contains end-to-end tests using Playwright and TS
 1.  Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 2.  Clone this repository:
     ```bash
-    git clone <YOUR_REPOSITORY_URL>
-    cd makeup-registration-tests
+    git clone https://github.com/YuraRavaR/risk-task.git
+    ```
+3.  Navigate to the risk-task directory:  
+    ```bash
+    cd risk-task 
     ```
 3.  Install the dependencies:
     ```bash
@@ -40,7 +43,7 @@ You can run the tests in several ways:
 By default, the browser runs in headless mode. If you want to see the browser while tests are running, add --headed:
 
 ```bash
-npx playwright test --project=chromium --headless 
+npx playwright test --project=chromium --headed 
  ```
 
 ## Reports
@@ -59,3 +62,5 @@ UI Mode: Opens an interactive interface where you can browse, run, and debug tes
 ```bash
 npx playwright test --ui
  ```
+## TODO Note
+In the code, certain areas are marked with "TODO" comments. These represent parts of the code that could be further optimized or improved if more time were available
