@@ -1,0 +1,17 @@
+{
+  "name": "risk-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.7.0"
+  }
+}
